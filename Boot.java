@@ -8,10 +8,7 @@ import javax.swing.JLabel;
 
 public class Boot extends JFrame {
 
-    ImageIcon icon = new ImageIcon("starticon.png");
     JLabel label = new JLabel("BAREBONES DISPLAY UNIT (BDU)");
-
-    JLabel label2 = new JLabel(icon);
 
     public Boot() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -26,10 +23,7 @@ public class Boot extends JFrame {
         label.setFont(new Font("Arial",Font.BOLD,50));
         label.setForeground(new Color(255,255,255));
         label.setSize(100,60);
-
-        label2.setSize(50,50);
         
-        //this.add(label2);
         this.add(label);
     }
 }
