@@ -9,12 +9,10 @@ import java.awt.event.ActionListener;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-//import javax.swing.JComponent;
 import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 import javax.swing.JInternalFrame;
 import javax.swing.JPanel;
-//import javax.swing.plaf.basic.BasicInternalFrameUI;
 import javax.swing.SwingConstants;
 
 public class Desktop extends JFrame implements ActionListener {
